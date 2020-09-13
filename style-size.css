@@ -1,0 +1,21 @@
+.wrap {
+    width:1300px;
+    min-height:1000px;
+}
+
+header {                    /*헤더 사이즈*/
+    height: 100px;
+}
+
+nav {                       /*nav 사이즈*/    
+    width: 1300px;
+}
+    
+nav a {
+    height:20px;
+}
+
+footer {                    /*footer 사이즈*/
+    height:120px;
+}
+

@@ -1,0 +1,93 @@
+body {                                                  /*바디 색상*/
+    background-color: black;
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+img {                                                   /*이미지 형태*/
+    border:none;
+}
+
+.wrap {                                                 /*전체 형태*/
+    text-align:left;
+    background-color: white;
+}
+
+a { 
+    text-decoration: none;
+}
+
+#logo {                                                 /*logo 넓이*/
+    color: black;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 48px;
+}
+input {
+    color:blue;
+}
+header .right a: hover {                                /*헤더 형태*/
+    color: gray;
+}
+
+nav {                                                   /*nav 형태*/
+    background: #397fb3; 
+    background: -webkit-linear-gradient(left, #139dba , #397fb3); 
+    background: -o-linear-gradient(right, #139dba, #397fb3); 
+    background: -moz-linear-gradient(right, #139dba, #397fb3); 
+    background: linear-gradient(to right, #139dba , #397fb3); 
+    background-color: seagreen;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0099;
+}
+    
+nav ul {
+    list-style:none;
+}
+
+nav a {
+    text-decoration:none;
+    color:#000000;
+    border-style: hidden hidden solid hidden;
+    border-color: transparent;
+}
+
+nav a:hover {
+    color:#2b4480;    
+    border-color: blue;
+}
+    
+footer #copyright {                                     /*푸터 형태*/
+   font-size: 10px; font-family: consolas;
+}
+
+footer #SNS a {
+    text-decoration: none;
+}
+
+.hobby{                                                 /*전체 넓이*/
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: white;
+    background-position: 0px 0px;   
+    border:solid 5px steelblue;
+    border-radius:10px;
+}
+
+.hobby.head {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.hobbyul li {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.hobbyul li img {
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}

@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>이범기의 취미</title>                                                                          
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">      <!--글꼴-->
+<link rel="stylesheet" type="text/css" href="style-size.css"/>
+<link rel="stylesheet" type="text/css" href="style-layout.css"/>
+<link rel="stylesheet" type="text/css" href="style-presentation.css"/>                   <!--형태 불러오기-->
+</head> 
+<body>
+<div class="wrap">                                                                                <!--wrap 클래스-->
+<header>
+    <a id="logo" href="main.html"> 이범기의 취미를                                                 <!--main.html 불러오기-->
+    <h6>
+      안녕하세요 16학번 이범기입니다.
+      제 취미를 소개하겠습니다.
+     </h6> 
+    </a>
+
+    <span class="right" style="padding: 30px 10px;">                                                <!--개별 형태-->
+      <img src="images/나.jpg">                                                                      <!--이미지 불러오기-->
+    </span>
+</header>
+
+<nav>
+    <ul>
+      <li><a href="part_active.html" target="display_area">액티비티</a><hr width="100%" color="black"></li>    <!--part_active.html 불러오기-->
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+        <li><a href="part_stadium.html" target="display_area">직관</a><hr width="100%" color="black"></li>     <!--part_stadium.html 불러오기-->
+         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="part_soccer.html" target="display_area">축구</a><hr width="100%" color="black"></li>      <!--part_soccer.html 불러오기-->
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+         <li><a href="part_tip.html" target="display_area">취미를 즐기는 팁!</a><hr width="100%" color="black"></li>
+   </span>
+    </ul>
+</nav>
+
+<hr/>
+<aside class="left">                    <!--왼쪽 불러오기 메뉴-->
+   <button id="part_active"> <a href="part_active.html" target="display_area"><img src="images/엑티비티아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="part_soccer"><a href="part_soccer.html" target="display_area"><img src="images/축구아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="part_stadium"> <a href="part_stadium.html" target="display_area"><img src="images/관람아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="tip"><a href="part_tip.html" target="display_area"><img src="images/팁아이콘.png" style="width:85px" disabled></button><br/>
+    <button id="ManUTD"onclick="window.open('https://www.manutd.com/') "> <img src="images/맨유아이콘.png" style="width:85px" disabled></button><br/>
+    <button id="INCHEON" onclick="window.open('https://www.incheonutd.com/main/index.php') "> <img src="images/인유.jpg" style="width:85px" disabled></button>
+    <br/>
+      
+</aside>
+
+<article class="left">                  <!--창을 불러오는 부분-->
+    <iframe name="display_area" src="images/Main.jpg" seamless="true"
+            width="1000px" height="1000px"></iframe>
+      </article>
+<
+<aside class="right">                   <!--오른쪽 불러오기 메뉴-->
+   <button id="part_soccer"><a href="part_soccer.html" target="display_area"><img src="images/축구아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="part_stadium"> <a href="part_stadium.html" target="display_area"><img src="images/관람아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="part_active"> <a href="part_active.html" target="display_area"><img src="images/엑티비티아이콘.png" style="width:85px" disabled></a></button><br/>
+    <button id="tip"><a href="part_tip.html" target="display_area"><img src="images/팁아이콘.png" style="width:85px" disabled></button><br/>
+    <button id="ManUTD"onclick="window.open('https://www.manutd.com/') "> <img src="images/맨유아이콘.png" style="width:85px" disabled></button><br/>
+    <button id="INCHEON" onclick="window.open('https://www.incheonutd.com/main/index.php') "> <img src="images/인유.jpg" style="width:85px" disabled></button>
+    <br/>
+</aside>
+
+<hr/>
+
+<footer> 
+   <div id="copyright">
+  </div>
+   <div id="foot">            <!--FOOTER 부분-->
+       <a href="https://www.incheonutd.com/main/index.php" target="_blank">
+           <img src="images/INCHEON.png" height="32" alt="incheonutd">
+         </a>
+         <a>인천 유나이티드</a>
+       <a href="https://www.manutd.com/" target="_blank">
+           <img src="images/MANUTD.png" height="32" alt="ManUTD">
+       </a>
+       <a>맨체스터 유나티드</a>
+        <a></a>
+    </div>
+    <h6>  Copyright (c) 2016 BUMKI's HOBBY <br>
+       이 사이트는 2019년도 2학기 웹표준 기말고사 대체 과제로 작성되었습니다.</h6>
+</footer>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
